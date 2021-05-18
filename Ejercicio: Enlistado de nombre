@@ -1,0 +1,5 @@
+nombres=["ocjod","ifhoqie","oiajfea","iocoackm","ocksmdoc","oskvmvosd"]
+i=0
+while i<len(nombres):
+    print(i,nombres[i])
+    i=i+1
