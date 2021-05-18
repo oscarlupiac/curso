@@ -1,0 +1,35 @@
+n=78
+div=[]
+i=1
+while i<50:
+	if n%i==0:
+		div.append(i)
+	i+=1
+print(div)
+p=0
+r=1
+while r<len(div):
+	div[p]=div[p]+div[r]
+	r+=1
+print (div[p])
+
+
+j=60
+divo=[]
+k=1
+while k<50:
+	if j%k==0:
+		divo.append(k)
+	k+=1
+print(divo)
+m=0
+x=1
+while x<len(divo):
+	div[m]=div[m]+div[x]
+	x+=1
+print (divo[m])
+
+if divo[m]==div[p]:
+	print("son numeros amigos")
+else:
+	print("no son numeros amigos")
